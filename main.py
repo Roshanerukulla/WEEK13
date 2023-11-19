@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Load your data
 df = pd.read_csv("Reviews.csv")  # Update with your actual data path
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 # Your visualization (e.g., histogram)
 plt.figure(figsize=(10, 6))
 sns.countplot(x='Score', data=df, palette='viridis')

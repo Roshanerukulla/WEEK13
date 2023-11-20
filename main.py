@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from b2sdk.v1 import B2Api, InMemoryAccountInfo
+
 st.header("WEEK 13 ASSIGNMENT")
 st.subheader("question: WHAT IS THE DISTRIBUTION OF REVIEWS?")
 # Load your data
